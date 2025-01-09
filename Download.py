@@ -13,4 +13,4 @@ video = YouTube(
 print('Title:', video.title)
 
 stream = video.streams.get_highest_resolution()
-stream.download()
+stream.download(output_path='C:\\Users\\Админ\\Documents\\Удалить\\You')
